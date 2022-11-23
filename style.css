@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 50px 200px;
+    text-align: left;
+}
+
+.info {
+    margin: 0 0 50px 0;
+}
+
+.primer {
+    margin: 0 0 30px 0;
+}
+
+.segundo {
+    margin: 0 0 30px 0;
+}
+
+.tercero {
+    margin: 0 0 30px 0;
+}
+
+.cuarto {
+    margin: 0 0 30px 0;
+}
+
+.quinto {
+    margin: 0 0 30px 0;
+}
+
+.sexto {
+    margin: 0 0 30px 0;
+}
+
+.titulos {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+@media (max-width: 800px) {
+    body {
+        font-size: 14px;
+        margin: 50px 40px;
+    }
+    .titulos {
+        font-size: 16px;
+    }
+}
